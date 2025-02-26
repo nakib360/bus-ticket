@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Counter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+        *{
+            font-family: "Inter", serif;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <header>
+        <nav class="flex justify-between items-baseline mt-14 mx-24">
+            <h1 class="text-4xl font-bold">P-Ticket</h1>
+            <div class="flex justify-between w-96 text-[20px]">
+                <a class="text-[#717171] hover:text-[black]" href="#">Home</a>
+                <a class="text-[#717171] hover:text-[black]" href="#">About </a>
+                <a class="text-[#717171] hover:text-[black]" href="#">Destination</a>
+                <a class="text-[#717171] hover:text-[black]" href="#">Search</a>
+            </div>
+            <button class="flex justify-between items-center px-8 border-green-500 border-2 rounded-xl h-14 w-32 bg-[#c7d3c74e] "><p class="text-green-500 font-bold text-[21px]">Bus</p><img class="ml-2 " src="images/bus-icon.png" alt=""></button>
+        </nav>
+        <section>
+            <div class="flex justify-center ">
+                <div class="flex justify-around h-[400px] flex-col absolute items-center mt-24">
+                    <p class=" text-white text-7xl font-bold">End-to-End Travel with</p>
+                    <span class="text-green-500 text-7xl font-bold">P Paribahan</span>
+                    <div>
+                        <p class="text-white text-xl">Yes, you can run unit tests and view the results directly within the app. The integrated testing features</p>
+                        <p class="text-white text-xl text-center">allow for a streamlined . integrated testing features allow for a streamlined .</p>
+                    </div>
+                    <button class="h-16 w-44 bg-green-500 rounded-2xl"><p class="font-bold text-xl">Buy Tickets</p></button>
+                </div>
+                <img class="mt-10 mx-[93px] " src="images/banner.png" alt="">
+            </div>
+            <div class="flex justify-around w-[930px] mx-16 mt-[-60px]">
+                <div class="">
+                    <div class="bg-green-500 h-[130px] w-72 rounded-3xl absolute mt-1"></div>
+                    <div class="bg-white h-[130px] w-72 rounded-3xl absolute flex justify-around items-center px-5">
+                        <img class="w-16 h-16" src="images/people.png" alt="">
+                        <div>
+                            <p class="font-bold text-4xl cursor-default">500K+</p>
+                            <p class="text-[#717171] cursor-default">Registered users</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="bg-green-500 h-[130px] w-72 rounded-3xl absolute mt-1"></div>
+                    <div class="bg-white h-[130px] w-72 rounded-3xl absolute flex justify-around items-center px-5">
+                        <img class="w-16 h-16" src="images/ticket-cupon.png" alt="">
+                        <div>
+                            <p class="font-bold text-4xl cursor-default">1.7 lacks</p>
+                            <p class="text-[#717171] cursor-default">Tickets sold</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="bg-green-500 h-[130px] w-72 rounded-3xl absolute mt-1"></div>
+                    <div class="bg-white h-[130px] w-72 rounded-3xl absolute flex justify-around items-center px-5">
+                        <img class="w-16 h-16" src="images/stoppage.png" alt="">
+                        <div>
+                            <p class="font-bold text-4xl cursor-default">80K+</p>
+                            <p class="text-[#717171] cursor-default">Rental partners</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+    <main class="mt-[160px]">
+        <p class="text-4xl font-bold text-center pt-16">Best offers for you</p>
+        <div class="flex justify-around mx-20 pt-10">
+            <div>
+                <div class="h-48 w-[560px] bg-yellow-400 rounded-3xl flex items-center">
+                    <div class="ml-10">
+                        <p class="font-bold text-4xl">15% OFF</p>
+                        <p class="font-bold text-xl w-56">on your next purchase</p>
+                        <p class="text-[#717171] w-56">use by January 2024</p>
+                    </div>
+                    <img class="h-48 ml-16 " src="images/cupon-devider.png" alt="">
+                    <div class="ml-6">
+                        <p class="text-4xl font-bold">NEW15</p>
+                        <p class="font-bold text-xl text-[#717171] w-44">Coupon Code</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="h-48 w-[560px] bg-pink-400 rounded-3xl flex items-center">
+                    <div class="ml-10">
+                        <p class="font-bold text-4xl">20% OFF</p>
+                        <p class="font-bold text-xl w-56">on your next purchase</p>
+                        <p class="text-[#717171] w-56">use by January 2024</p>
+                    </div>
+                    <img class="h-48 ml-16 " src="images/cupon-devider.png" alt="">
+                    <div class=" ml-1">
+                        <p class="text-4xl font-bold">Couple 20</p>
+                        <p class="font-bold text-xl text-[#717171] w-44 text-center">Coupon Code</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="flex justify-center items-center"><button class="font-bold text-xl text-green-500 border-green-500 border h-16 w-44 rounded-xl mt-16">See All Offers</button></div>
+
+        <section class="mt-28">
+                <div>
+                <div class="bg-green-500 h-[300px] w-full rounded-t-[80px] absolute" id="buy-tickets"></div>
+
+<!-- main body -->
+                <div class="bg-[#f8f8f8] h-[1800px] w-full rounded-t-[80px] absolute mt-1 ">
+                    <p class="text-4xl font-bold text-center pt-28">P.H Paribahan</p>
+                    <p class="text-xl text-center pt-8 text-[#717171]">Yes, you can run unit tests and view the results directly within the app. The integrated <br> testing features allow for a streamlined .</p>
+                    <div class="flex justify-center items-center pt-12"><div class="h-[390px] w-[1100px] rounded-3xl flex justify-between items-center bg-white pl-7 pr-10">
+                        <div class="flex justify-between items-center flex-col flex-wrap w-[800px]">
+                            <div class="flex justify-between items-center w-[800px]">
+                                <div class="flex justify-between items-center w-96">
+                                    <img src="images/bus-logo.png" alt="">
+                                    <div class="flex flex-col justify-between h-[70px]">
+                                        <p class="font-bold text-3xl">Greenline Paribahan</p>
+                                        <p class="text-[#717171]">Coach-009-WEB ! AC_Business</p>
+                                    </div>
+                                </div>
+                                <button class="text-green-500 text-xl flex justify-between items-center px-4 h-14 w-48 bg-green-100 rounded-2xl"> <img src="images/seat-green.png" alt="">40 Seats left</button>
+                            </div>
+                            <div class="bg-[#f8f8f8] h-[250px] w-[800px] rounded-3xl mt-5 px-8 py-8">
+                                <div>
+                                    <div class="flex justify-between items-center"><p class="text-[#717171] text-xl">Route</p><p class="text-black  text-xl">Dhaka - Sylhet</p></div>
+                                    <hr class="border-dashed border-[#bebebe] border mt-5">
+                                    <div class="flex justify-between items-center mt-5"><p class="text-[#717171] text-xl">Departure Time</p><p class="text-black text-xl">9:00 PM</p></div>
+                                    <hr class="border-dashed border-[#bebebe] border mt-5">
+                                </div>
+                                <div class="flex justify-between mt-5">
+                                    <button class="h-14 w-56 rounded-xl text-[#717171] bg-[#e5e5e5]">Boarding Point - Laxmipur</button>
+                                    <button class="h-14 w-56 rounded-xl text-[#717171] bg-[#e5e5e5]">Dropping Point - Bogura</button>
+                                    <button class="h-14 w-56 rounded-xl text-[#717171] bg-[#e5e5e5]">Est. Time - 11 Hour</button>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="h-[393px]" src="images/info-devider.png" alt="">
+                        <div class="flex flex-col justify-center items-center">
+                            <img src="images/fare.png" alt="">
+                            <p class=" text-3xl font-bold ">550 Taka</p>
+                            <p class="text-xl text-[#717171]">Per Seat</p>
+                        </div>
+                    </div></div>
+
+
+                    <div class="flex justify-center items-center"><div class="bg-white h-[980px] w-[1100px] rounded-3xl mt-6 px-8 py-7 flex justify-between">
+                    
+                    <div>
+                        <p class="text-2xl font-bold">Select Your Seat</p>
+                        <hr class="border-dashed border border-[#bebebe] w-[600px] mt-5">
+                        <div class="w-[600px] flex justify-between mt-5">
+                            <div class="flex justify-between items-center w-28">
+                                <img src="images/seat-gray.png" alt="">
+                                <p class="text-xl text-[#717171]">Available</p>
+                            </div>
+                            <div class="flex justify-between items-center w-28">
+                                <img src="images/seat-green-filled.png" alt="">
+                                <p class="text-xl text-green-500">Selected</p>
+                            </div>
+
+                        </div>
+                        <hr class="border-dashed border border-[#bebebe] w-[600px] mt-5">
+                        <div class="h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center mt-5 ml-[489px]"> <img class="h-8 w-8" src="images/Steering-wheel-512.webp" alt=""></div>
+
+                        <div class=" w-[600px] mt-5 flex justify-between">
+                                
+                            <div class="">
+                                <div class="text-[#717171] text-xl mt-3">A</div>
+                                <div class="text-[#717171] text-xl mt-11">B</div>
+                                <div class="text-[#717171] text-xl mt-11">C</div>
+                                <div class="text-[#717171] text-xl mt-11">D</div>
+                                <div class="text-[#717171] text-xl mt-11">E</div>
+                                <div class="text-[#717171] text-xl mt-11">F</div>
+                                <div class="text-[#717171] text-xl mt-11">G</div>
+                                <div class="text-[#717171] text-xl mt-11">H</div>
+                                <div class="text-[#717171] text-xl mt-11">I</div>
+                                <div class="text-[#717171] text-xl mt-11">J</div>
+                            </div>
+                            <div class="">
+                                <div class="h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">A1</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">B1</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">C1</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">D1</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">E1</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">F1</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">G1</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">H1</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">I1</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">J1</div>
+                            </div>
+                            <div>
+                                <div class="h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">A2</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">B2</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">C2</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">D2</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">E2</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">F2</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">G2</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">H2</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">I2</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">J2</div>
+                            </div>
+                            <div class="ml-14">
+                                <div class="h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">A3</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">B3</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">C3</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">D3</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">E3</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">F3</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">G3</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">H3</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">I3</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">J3</div>
+                            </div>
+                            <div>
+                                <div class="h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">A4</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">B4</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">C4</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">D4</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">E4</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">F4</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">G4</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">H4</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">I4</div>
+                                <div class="mt-4 h-14 w-28 bg-slate-200 rounded-xl flex justify-center items-center text-[#717171] text-xl hover:bg-green-500 transition">J4</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="h-[930px]" src="images/long-dotted-line.png" alt="">
+                    </div>
+                    <div>
+                        <p class="text-2xl font-bold">Select Your Seat</p>
+                        <hr class="border-dashed border border-[#bebebe] w-[380px] mt-5">
+
+                        <div class="h-[300px] w-[380px] bg-slate-200 rounded-2xl mt-8">
+                            <div class="flex justify-around items-center pt-8">
+                                <div class="flex justify-center items-center font-bold "><p>Seat </p><div class="bg-green-500 text-white text-xs w-7 rounded-xl flex justify-center">2</div></div>
+                                <p class="font-bold mr-8">Class</p>
+                                <p class="font-bold mr-1">Price</p>
+                            </div>
+                            <hr class="border-dashed border border-[#bebebe] mx-8 mt-3">
+                            <div class="flex justify-around mt-1">
+                                <p class="text-[#717171]">C2</p>
+                                <p class="text-[#717171]">Economoy</p>
+                                <p class="text-[#717171]">550</p>
+                            </div>
+                            <div class="flex justify-around mt-1">
+                                <p class="text-[#717171]">C2</p>
+                                <p class="text-[#717171]">Economoy</p>
+                                <p class="text-[#717171]">550</p>
+                            </div>
+                            <hr class="border border-[#bebebe] mx-8 mt-3">
+                            <div class="flex justify-between mx-8 mt-3">
+                                <p class="font-bold ">Total Price</p>
+                                <p class="font-bold">BDT 1100</p>
+                            </div>
+                            <input id="Have any copupon?" class="rounded-xl mt-3 mx-8 h-14 w-[315px] flex justify-start items-center pl-5 placeholder:text-[14px] focus:outline-none" type="password" placeholder="Have any copupon?">
+                            <button class="bg-green-500 rounded-xl h-11 text-white w-[80px] ml-[260px] mt-[-50px] absolute">Apply</button>
+                            <div class="flex justify-between mx-8 mt-3">
+                                <p class="font-bold ">Grand Total</p>
+                                <p class="font-bold">BDT 1100</p>
+                            </div>    
+                        </div>
+                        <p class="font-bold mt-5">Passenger Name*</p>
+                        <input type="text" class="border border-[#bebebe] focus:outline-none pl-5 bg-transparent rounded-xl mt-3 h-14 w-[380px]" placeholder="Enter your name">
+
+                        <p class="font-bold mt-5">Phone Number*</p>
+                        <input type="number" class="border border-[#bebebe] focus:outline-none pl-5 bg-transparent rounded-xl mt-3 h-14 w-[380px]" placeholder="Enter your phone number">
+
+                        <p class="font-bold mt-5">Email ID</p>
+                        <input type="email" class="border border-[#bebebe] focus:outline-none pl-5 bg-transparent rounded-xl mt-3 h-14 w-[380px]" placeholder="Enter your email id">
+                        <p></p>
+                        <form action="succes.html" method="get">
+                            <button type="submit" class="bg-green-500 rounded-xl mt-8 h-14 w-[380px] text-white text-xl">
+                              Submit
+                            </button>
+                        </form>
+                        <div class="flex justify-between items-center mx-8 mt-5">
+                            <a href="#" class="underline text-[#717171]">Terms and Conditions</a>
+                            <a href="#" class="underline text-[#717171]">Cancellation Policy</a>
+                        </div>
+                        
+                    </div>
+                    </div></div>
+                
+                </div>
+<!-- end of main body -->
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="pt-[1800px]">
+        <div class="w-full h-[450px] bg-[#040416] px-[120px] py-[120px]"> 
+            <div class="flex justify-between items-center">
+                <div>
+                    <p class="text-white text-4xl font-bold">P-Ticket</p>
+                    <p class="text-[#bebebe] text-xl pt-5">P-Ticket is a digital platform to make your <br>daily commuting better.</p>
+                </div>
+                <div class="flex flex-col justify-center items-end">
+                    <p class="text-white text-xl">Download our app</p>
+                    <button class="h-14 w-[200px] border-2 border-white rounded-[8px] bg-black flex justify-between px-2 items-center mt-5">
+                        <img src="images/playstore.png" alt="">
+                        <div class="flex flex-col justify-start items-start">
+                            <P class="text-xs text-white ">GET IT ON</P>
+                            <P class="text-2xl text-white">Google Play</P>
+                        </div>
+                    </button>
+                </div>
+            </div>
+                <hr class="border-dashed border border-[#bebebe]  mt-16">
+            <div class="flex justify-between items-center mt-8">
+                <div>
+                    <p class="text-[#bebebe]">@all rights reserved, P-Ticket services limited.2024</p>
+                </div>
+                <div class=" flex justify-between items-center w-[450px]">
+                    <a class="text-white" href="#">Terms & condition</a>
+                    <a class="text-white" href="#">Return & refund policy</a>
+                    <a class="text-white" href="#">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-3 bg-[#717171]"></div>
+    </footer>
+</body>
+</html>
